@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%">
     <head>
         <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1 ">
-    <title>Christmas List</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Christmas List</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+        <script type="text/javascript" src="js/main.js"></script>
     </head>
-    <body style="background-image: url('snow.gif'), url(tree.png); background-size: cover;">
-        <div class="columns is-vcentered is-centered" style="height: 100vh">
-            <div class="column is-narrow">
-                <div class="container is-flex">
-                    <div class="box" style="width: 400px; place-self: center;">
-                        <div class="select is-info is-fullwidth">
-                            <select>
-                                <option>hi</option>
-                                <option>yoyoo</option>
-                            </select>
-                        </div>
-                    </div>
+    <body style="background-image: url(giphy.webp), url(snowflakes.gif); height: 100%; margin: 0; align-content: center; background-size: cover, auto">
+        <div class="box" style="display:flex; flex-direction: column; margin: auto; width: 600px; background-color: #05472A; box-shadow: 5px 5px 5px black; border:solid red;">
+            <div class="select is-info is-fullwidth is-rounded" style="margin-bottom: 30px;">
+                <select>
+                    <option>hi</option>
+                    <option>yoyoo</option>
+                </select>
             </div>
+            <button onclick="test()" class="button" type="button" style="margin:auto; background-color: darkred;">
+                Search!
+            </button>
         </div>
     </section>
     </body>

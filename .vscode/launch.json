@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/michaelknox/Documents/ChristmasList/index.html"
+            "file": "/Users/ryanp/OneDrive/Documents/VS Code/ChristmasList/mknox13.github.io/index.html"
         }
     ]
 }
